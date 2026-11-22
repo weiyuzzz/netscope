@@ -1,0 +1,25 @@
+# Node
+node_modules/
+dist/
+
+# Rust
+src-tauri/target/
+src-tauri/gen/
+
+# 日志与临时文件
+*.log
+*.tmp
+.DS_Store
+
+# 编辑器
+.idea/
+.vscode/
+
+# Npcap 安装包（第三方二进制，不入库）
+.npcap-setup/
+
+# 验收临时日志
+cap-test.log
+
+# 临时补丁脚本
+scripts_patch/

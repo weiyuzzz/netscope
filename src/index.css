@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* NetScope 深色主题设计令牌（克制使用蓝 / 青 / 紫） */
+@theme {
+  --color-ns-bg: #0b1220;
+  --color-ns-panel: #111a2c;
+  --color-ns-panel-hover: #16223a;
+  --color-ns-border: #1e293b;
+  --color-ns-accent: #22d3ee;
+  --color-ns-blue: #3b82f6;
+  --color-ns-purple: #a78bfa;
+  --color-ns-text: #e2e8f0;
+  --color-ns-muted: #64748b;
+  --color-ns-ok: #34d399;
+  --color-ns-warn: #fbbf24;
+  --color-ns-error: #f87171;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: var(--color-ns-bg);
+  color: var(--color-ns-text);
+  font-family: "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
